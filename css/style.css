@@ -10,7 +10,7 @@ html, body{
     height: 15%;
     width: 100%;
     background-color: rgba(109, 67, 67, 1); 
-    position: relative;
+    position: fixed;
  
 }
 
@@ -51,4 +51,32 @@ html, body{
 
 .menu-botão > a:hover{
     border-bottom: 0.5vh solid red;
+}
+.one{
+    background-color: aqua;
+    height: 50vh;
+}
+
+.rodape{
+    width: 40%;    
+    margin: 0 auto;    
+}
+.rodape p{
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rodape p::before{
+    content: "\201C";
+    font-size: 3em;
+    color: black;
+
+}
+
+.rodape p::after{
+    content: "\201D";
+    font-size: 3em;
+    color: black;
 }
