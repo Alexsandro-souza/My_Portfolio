@@ -1,6 +1,4 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -10,14 +8,19 @@ html, body{
 
 .cabecalho{
     height: 15%;
-    width: 100%;    
+    width: 100%;
+    background-color: rgba(109, 67, 67, 1); 
+    position: relative;
+ 
 }
 
 .menu-foto{
     width: 7%;
-    height: 100%;
-    border: 2px solid black;
+    height: 100%;    
     border-radius: 50%;
+    margin: 2% 0 0 2%;
+    background-color: rgb(81, 83, 83);
+    display: inline-block;
 }
 
 .menu-foto .minha-foto{
@@ -25,4 +28,27 @@ html, body{
     height: 100%;
     border-radius: 50%;
     align-items: center;
+
+}
+
+.menu-botão {
+    
+    display: inline-block;
+    position: relative;
+    width: 27%;   
+    left: 60%;
+    bottom: 50%;
+    
+  
+    
+}
+.menu-botão > a{    
+    text-decoration: none;
+    padding-left: 1%;
+    font-size: 4vh;
+    color: white; 
+}
+
+.menu-botão > a:hover{
+    border-bottom: 0.5vh solid red;
 }
