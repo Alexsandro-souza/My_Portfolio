@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;;
+}
+
+.cabecalho{
+    height: 15%;
+    width: 100%;    
+}
+
+.menu-foto{
+    width: 7%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.menu-foto .minha-foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    align-items: center;
+}
